@@ -1,41 +1,41 @@
 package com.github.easystate;
 
 /**
- * ·¢ÉúºóµÄ½á¹û
+ * å‘ç”Ÿåçš„ç»“æœ
  *
  * @author <a href="mailto:zephyrleaves@gmail.com"></a>
  * @since 2010-4-13 13:29:07
  */
 public enum HappenedResult {
     /**
-     * ³É¹¦
+     * æˆåŠŸ
      */
     SUCCESS,
     /**
-     * Ã»ÓĞÕâ¸ö×´Ì¬
+     * æ²¡æœ‰è¿™ä¸ªçŠ¶æ€
      */
     NO_FIELD,
     /**
-     * Ã»ÓĞÅäÖÃÏÂÒ»²½²Ù×÷
+     * æ²¡æœ‰é…ç½®ä¸‹ä¸€æ­¥æ“ä½œ
      */
     NO_NEXT,
     /**
-     * Ã»ÓĞÅäÖÃÂ·¾¶
+     * æ²¡æœ‰é…ç½®è·¯å¾„
      */
     NO_ARC,
     /**
-     * Ã»ÓĞÊÂ¼ş
+     * æ²¡æœ‰äº‹ä»¶
      */
     NO_EVENT,
     /**
-     * Î»ÖÃ´íÎó
+     * ä½ç½®é”™è¯¯
      */
     UNKNOW;
 
     /**
-     * ÊÇ·ñ³É¹¦
+     * æ˜¯å¦æˆåŠŸ
      *
-     * @return true ³É¹¦ false ²»³É¹¦
+     * @return true æˆåŠŸ false ä¸æˆåŠŸ
      */
     public boolean isSuccess() {
         return SUCCESS.equals(this);

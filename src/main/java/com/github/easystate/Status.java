@@ -5,7 +5,7 @@ import org.apache.commons.lang.StringUtils;
 import java.io.Serializable;
 
 /**
- * ×´Ì¬
+ * çŠ¶æ€
  *
  * @author <a href="mailto:zephyrleaves@gmail.com"></a>
  * @since 2010-4-13 10:12:07
@@ -24,21 +24,21 @@ public class Status<T extends State, E extends Event> implements Serializable {
     }
 
     /**
-     * µ±Ç°×´Ì¬
+     * å½“å‰çŠ¶æ€
      */
     private T currentState;
     /**
-     * ÉÏÒ»¸ö×´Ì¬
+     * ä¸Šä¸€ä¸ªçŠ¶æ€
      */
     private T previousState;
 
 
     /**
-     * ·¢ÉúÊÂ¼ş
+     * å‘ç”Ÿäº‹ä»¶
      *
      * @param event of type Event
      *
-     * @return ±ä¸üÊÇ·ñ³É¹¦
+     * @return å˜æ›´æ˜¯å¦æˆåŠŸ
      */
     public HappenedResult happen(E event) {
         try {
@@ -75,7 +75,7 @@ public class Status<T extends State, E extends Event> implements Serializable {
     /**
      * Method getCurrentState returns the currentState of this Status object.
      * <p/>
-     * µ±Ç°×´Ì¬
+     * å½“å‰çŠ¶æ€
      *
      * @return the currentState (type T) of this Status object.
      */
@@ -86,7 +86,7 @@ public class Status<T extends State, E extends Event> implements Serializable {
     /**
      * Method getPreviousState returns the previousState of this Status object.
      * <p/>
-     * ÉÏÒ»¸ö×´Ì¬
+     * ä¸Šä¸€ä¸ªçŠ¶æ€
      *
      * @return the previousState (type T) of this Status object.
      */

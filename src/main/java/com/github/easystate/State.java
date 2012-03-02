@@ -1,7 +1,7 @@
 package com.github.easystate;
 
 /**
- * ×´Ì¬ÀàĞÍ
+ * çŠ¶æ€ç±»å‹
  *
  * @author <a href="mailto:zephyrleaves@gmail.com"></a>
  * @since 2010-4-13 12:34:25
@@ -9,22 +9,22 @@ package com.github.easystate;
 public interface State{
 
     /**
-     * »ñÈ¡Öµ
+     * è·å–å€¼
      *
      * @return the value (type int) of this State object.
      */
     int getValue();
 
     /**
-     * »ñÈ¡×´Ì¬Ãû
+     * è·å–çŠ¶æ€å
      *
-     * @return ×´Ì¬Ãû
+     * @return çŠ¶æ€å
      */
     String getOrginName();
 
 
     /**
-     * »ñÈ¡¶ÔÓ¦µÄ×´Ì¬
+     * è·å–å¯¹åº”çš„çŠ¶æ€
      *
      * @param name of type String
      *

@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * ×´Ì¬±ä¸üÂ·¾¶(»¡¶È)
+ * çŠ¶æ€å˜æ›´è·¯å¾„(å¼§åº¦)
  *
  * @author <a href="mailto:zephyrleaves@gmail.com"></a>
  * @since 2010-4-13 13:48:10
@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 public @interface Next {
 	/**
-	 * ÓĞÏò»¡¶È (Ö¸Ã÷ÊÂ¼ş->×´Ì¬) <code>DOXXX->END</code>
+	 * æœ‰å‘å¼§åº¦ (æŒ‡æ˜äº‹ä»¶->çŠ¶æ€) <code>DOXXX->END</code>
 	 *
 	 * @return String
 	 */

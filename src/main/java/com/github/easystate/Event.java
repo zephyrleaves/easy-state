@@ -6,9 +6,9 @@ package com.github.easystate;
  */
 public interface Event {
     /**
-     * »ñÈ¡ÊÂ¼şÃû
+     * è·å–äº‹ä»¶å
      *
-     * @return ÊÂ¼şÃû
+     * @return äº‹ä»¶å
      */
     String getName();
 }
